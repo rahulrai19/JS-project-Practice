@@ -1,0 +1,28 @@
+.container {
+ 
+  padding: 20px;
+}
+
+.food-grid {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  
+  width: 220px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.card img {
+  width: 100%;
+}
+
+button {
+  padding: 8px 12px;
+  cursor: pointer;
+}
